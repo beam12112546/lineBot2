@@ -24,11 +24,11 @@ def callback():
    userText = decoded['queryResult']['intent']['displayName']
    #sendText(user,userText)
    if (userText== 'สวัสดี') :
-       sendText(user  'ดีจ้าา')
+       sendText(user,  'ดีจ้าา')
    elif  (userText== 'ไอ้บ้า') :
-       sendText(user 'คุณสิบ้า')
+       sendText(user, 'คุณสิบ้า')
    elif (userText== 'อ้าวว') :
-        sendText(user'ล้อเล่นน่าา')
+        sendText(user,'ล้อเล่นน่าา')
    return '',200
 
 def sendText(user, text):
